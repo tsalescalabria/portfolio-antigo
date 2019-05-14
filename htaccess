@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www.)?thiagocalabria.com$
+RewriteRule ^(.*)$ https://www.thiagocalabria.com/$1 [r=301,nc]

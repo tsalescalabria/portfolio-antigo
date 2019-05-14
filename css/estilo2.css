@@ -1,0 +1,249 @@
+	body{
+		font-family: 'Open Sans', sans-serif;
+	}
+	/* ----- TOPO ---------*/
+	.topo-site{
+		background-image: url(../img/teclado1.jpg);
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		color: #ffffff;
+		padding-top:80px; 
+		
+	}
+	div h1.logo{
+		color: #9e0b0f;
+		font-size:400%;
+	    background-color: rgba(80,80,80,0.4);
+	    padding-top: 18px;
+	    padding-bottom: 23px;
+	    font-family: 'Open Sans', sans-serif;
+	    font-weight: 700;
+	    animation-name: PrimeiroNome;
+	  	animation-duration: 3s;
+	}
+	@keyframes PrimeiroNome {
+	  0% {color: rgba(80,80,80,0.1);}
+	  80% {color: #f7f7f7;}
+	  100%{color: #9e0b0f}
+	}
+	div a.sobrenome{
+		color: #f7f7f7;
+		font-size:100%;
+	    font-family: 'Open Sans', sans-serif;
+	    font-weight: 700;
+	    text-decoration: none;
+	    animation-name: SegundoNome;
+	  	animation-duration: 2s;
+	    }
+	    @keyframes SegundoNome {
+	  from {color: rgba(80,80,80,0.1);}
+	  to {color: #f7f7f7;}
+	}
+	.logo-sub{
+		color: white;
+		font-weight: 700;
+		font-size: 250%;
+		padding-bottom: 100px;
+		animation-name: SubTitulo;
+	  	animation-duration: 3.5s;
+	}
+	@keyframes SubTitulo {
+	  from {color: black}
+	  to {color: white}
+	}
+	/*----MENU------*/
+	nav.menu{
+		background-color:#9e0b0f;	
+	}
+	nav.menu li a {
+		font-weight: 500;
+		font-size: 150%;
+		margin-left: 20px;
+		margin-right: 20px;
+		color: #f1f1f1; 
+		font-family: 'Open Sans', sans-serif;
+	}
+	nav.menu ul li:hover {
+		background-color:#ae0c11;
+	}
+
+	/* ----- SOBRE ---------*/
+	h2.sobre {
+		font-size: 400%;
+		color: #9e0b0f;
+	}
+	img.perfil{
+		border-radius: 90%;
+		height: 55%;
+		width: auto;
+	}
+	div.texto-sobre p{
+		font-size: 120%;
+		font-family:  'Open Sans', sans-serif;
+		text-align: justify;
+	}
+
+	/* ------- SERVIÇOS ======= */
+	section.serviços-site{
+		background-image: url(../img/teclado1.jpg);
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		padding-top:20px;
+		padding-bottom: 80px; 
+	}
+	h2.serviços{
+		color: white;
+		font-family:  'Open Sans', sans-serif;
+		font-size: 400%;
+		margin-bottom: 80px;
+	}
+	/*---- icones primeira fileira-----*/
+	div.programas a{
+		background-color: #ed145b;
+		padding: 20px 40px 20px 40px;
+		border-radius: 90%;
+		font-size: 450%;
+		color: white;
+        transition: 1s;
+	}
+	div a.html5{
+		padding: 20px 45px 20px 45px;
+		
+	}
+	div a.html5:hover{
+		background-color: #f2672c;
+	 
+	}
+	div a.css3{
+		padding: 20px 45px 20px 45px;
+	}
+	div a.css3:hover{
+		background-color: #30aadd;
+		 
+	}
+	div a.javascript:hover{
+		background-color: #f1c026;
+		
+	}
+	div a.bootstrap{
+		padding: 20px 45px 20px 45px;
+	}
+	div a.bootstrap:hover{
+		background-color: #603f8d;
+		
+	}
+	/*---- icones segunda fileira-----*/
+	div.programas a.jquery{
+		padding: 20px 34px 20px 34px;
+	}
+	div.programas a.jquery:hover{
+		text-decoration:none;
+		background-color: #0865a6;
+	}
+	div.programas a.photoshop{
+		padding: 20px 40px 20px 40px;
+	}
+	div.programas a.photoshop:hover{
+		background-color: #ed1b22;
+	}
+	div.programas a.ingles{
+		padding: 20px 38px 20px 38px;
+		
+	}
+	div.programas a.ingles:hover{
+		background-color: #2a5d7a;
+	}
+	div.programas a.info{
+		padding: 25px 40px 25px 40px;
+		font-size: 400%;	
+	}
+	div.programas a.info:hover{
+		background-color: #00a280;
+		text-decoration: none;
+	}
+
+	div.serv p{
+		color: white;
+	}
+	/*---- EXPERIENCIA-----*/
+	section.experiencia-site{
+		background-color: #9e0b0f;
+		
+	}
+	h2.experiencia {
+		font-size: 400%;
+		color: white;
+	}
+	div.card-body p{
+		font-size: 120%;
+		font-family:  'Open Sans', sans-serif;
+	}
+	/* ------ CONTATO ---- */
+	section.contato-site{
+		background-color: #474d5d;
+		background-size: cover;
+		padding-top:20px;
+		padding-bottom: 0px; 
+	}
+	h2.contato {
+		font-size: 400%;
+		color: white;
+	}
+	div.perfil{
+		background-color: #353a47
+	}
+	div.perfil p{
+		color:#bfbfbf;
+	}
+
+	form.formulario{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.form_item{
+		padding: 10px;
+		margin-bottom: 15px;
+		font-size: 1.1em;
+		border-radius: 5px;
+	}
+	textarea{
+		height: 150px;
+	}
+/*-------------- rodapé --------------*/
+	section.rodape{
+		background-color: #353a47;
+		background-size: cover;
+		padding-top:20px;
+		padding-bottom:10px; 
+	}
+	
+	/* ---- ANIMAÇÃO --*/
+
+	/* -- animação experiencia ---*/
+	@keyframes deslizar{
+	  0%   { margin-left: -200px; }
+	  70%  { margin-left: 40px; }
+	  85% { margin-left: 20px; }
+	  100% {margin-left: 40px;}
+	}
+
+	@keyframes deslizar2{
+	  0%   { margin-right:700px; }
+	  50%  { margin-right: 30px; }
+	  75% { margin-right: 20px; }
+	  100% {margin-right: 0px;}
+	}
+	/* administração*/
+
+	body.admBody{
+		background-image: url(img/teclado1.jpg);
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
